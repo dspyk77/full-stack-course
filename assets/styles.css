@@ -25,7 +25,8 @@ td {
 /* ------img's------- */
 /* main img position */
 .header-img {
-  width: 500px;
+  max-width: 750px;
+  min-width: 350px;
   height: inherit;
   padding-bottom: 5px;
 }
@@ -55,7 +56,8 @@ button:hover {
 
 
 .table-size {
-  width: 500px;
+  min-width: 320px;
+  max-width: 800px;
   height: 150px;
 }
 /* -----FLEX----- */
