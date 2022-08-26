@@ -1,0 +1,102 @@
+/* Keep in mind in the future, mobile first design is key here, but for now we are learning the basics*/
+/* mobile first = media queries -
+(@media () {
+ 
+} */
+
+.discord-link:hover {
+  text-decoration-color: limegreen;
+}
+
+/* table border */
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+/* summary border */
+.summary {
+  margin: 10px;
+  border: 1px solid;
+  padding: auto;
+}
+
+/* ------img's------- */
+/* main img position */
+.header-img {
+  width: 500px;
+  height: inherit;
+  padding-bottom: 5px;
+}
+.center-header-img {
+  display: flex;
+  justify-content: center;
+}
+
+/* buttons */
+.sign-up-button {
+  background-color: rgb(0, 166, 255);
+  border-color: black;
+  color: white;
+  border-radius: 25px;
+}
+
+button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.prefill {
+  background-color: gray;
+  opacity: 35;
+}
+
+
+
+.table-size {
+  width: 500px;
+  height: 150px;
+}
+/* -----FLEX----- */
+.flex-container {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.justify-content-center {
+  justify-content: center;
+}
+/* -----media------  */
+@media screen and (max-width: 700px) {
+  .nav {
+    flex-direction: column;
+  }
+}
+/* work in progress, trying to get the sign up section
+ borders not to touch. It's more than likly a conflict 
+ with flex, block and inline block declorations */
+@media screen and (max-width: 940px) {
+  .d-flex {
+    flex-direction: column;
+    align-content: space-around;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+}
+/* examples */
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-responsive {
+  flex-direction: column;
+}
+
+@media screen and (min-width: 940px) {
+  .flex-col-responsive {
+    flex-direction: row;
+  }
+}

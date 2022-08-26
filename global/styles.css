@@ -1,0 +1,156 @@
+/* ----- Global flex classes ----- */
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-responsive {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+/* ------ Global font classes ------- */
+/* font color white */
+.font-color {
+  color: #f2f2f2;
+}
+/* h1 font - google fonts */
+.header-font {
+  font-family: "Orbitron", sans-serif;
+}
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* -------- Global nav classes-------- */
+.nav {
+  display: flex;
+  overflow: hidden;
+  background-color: #333;
+}
+/* Navbar links - float: left removed, replaced with display: inline-flex;
+  flex-direction: row;*/
+.nav a {
+  display: inline-flex;
+  flex-direction: row;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Links - change color on hover */
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* ------- Global background colors------- */
+/*background color for each section*/
+.background-color-main {
+  background-color: olivedrab;
+}
+.section-background-color {
+  background-color: rgba(77, 73, 73, 0.803);
+}
+/* child elements background color */
+.child-background {
+  background-color: black;
+}
+
+/* ------- Global borders ------- */
+/* child elements border */
+.child-border {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+/* generic thick border */
+.thick-border {
+  border: 5px solid;
+}
+/* genaric border */
+.bordered-area {
+  border: 1px solid;
+  margin: 5px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.173);
+}
+
+/* ---- Gloabl header ---- */
+.header {
+  text-align: center;
+  padding: 20px;
+}
+.center-header {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* ------- Global spaceing, positoning, sizing -------- */
+.box-sizing {
+  box-sizing: border-box;
+}
+
+.bottom-space {
+  margin-bottom: 200px;
+}
+
+.margin {
+  margin: 15px;
+}
+
+.margin-left {
+  margin-left: 30px;
+}
+
+.margin-bottom {
+  margin-bottom: 15px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+.padding-bottom {
+  padding-bottom: 20px;
+}
+.padding-bottom-10{
+  padding-bottom: 10px;
+}
+.button-position {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/* ---- Global *** ---- */
+
+.box-shadow {
+  box-shadow: 10px 10px 5px rgb(63, 86, 94);
+}
+
+
+
+
+
+
+
+
