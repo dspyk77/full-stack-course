@@ -68,30 +68,9 @@ button:hover {
 .justify-content-center {
   justify-content: center;
 }
-/* -----media------  */
-@media screen and (max-width: 700px) {
-  .nav {
-    flex-direction: column;
-  }
-}
-/* work in progress, trying to get the sign up section
- borders not to touch. It's more than likly a conflict 
- with flex, block and inline block declorations */
-@media screen and (max-width: 940px) {
-  .d-flex {
-    flex-direction: column;
-    align-content: space-around;
-    margin: 10px;
-    box-sizing: border-box;
-  }
-}
+
 /* examples */
-
-.flex-col {
-  flex-direction: column;
-}
-
-.flex-col-responsive {
+/* .flex-col-responsive {
   flex-direction: column;
 }
 
@@ -99,4 +78,4 @@ button:hover {
   .flex-col-responsive {
     flex-direction: row;
   }
-}
+} */
