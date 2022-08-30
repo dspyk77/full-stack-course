@@ -26,7 +26,7 @@ td {
 /* main img position */
 .header-img {
   max-width: 500px;
-  min-width: 270px;
+  min-width: 250px;
   height: inherit;
   padding-bottom: 5px;
 }
