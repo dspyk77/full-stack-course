@@ -8,13 +8,16 @@
   text-decoration-color: limegreen;
 }
 
-/* table border */
+/* table classes */
 table,
 th,
 td {
   border: 1px solid;
 }
 
+.table-hover tr:not(:first-child):hover {
+  background-color: #4b4b4b;
+}
 /* summary border */
 .summary {
   margin: 10px;
