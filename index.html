@@ -73,31 +73,27 @@
         <section class="padding-10">
           <!-- span it make the child elements inline block -->
           <div class="d-flex">
-            <div
-              class="child-background padding-10 margin child-border d-flex flex-col-responsive"
-            >
+            <div class="child-background padding-10 margin child-border">
               <!--User name input-->
-              <div class="margin-bottom">
+              <div class="margin-bottom sign-up-textbox">
                 <label class="underline">First name:</label>
                 <input type="text" placeholder="First Name" />
               </div>
-              <div class="margin-bottom">
+              <div class="margin-bottom sign-up-textbox">
                 <label class="underline">Last name:</label>
                 <input type="text" placeholder="Last Name" />
               </div>
 
-            <!--User email-->
-            <div>
-              <label class="underline padding-right-0">Email:</label>
-              <!--How did I forget the 0!!-->
-              <input type="email" placeholder="bigb0i@email.com" />
+              <!--User email-->
+              <div class="margin-bottom sign-up-textbox">
+                <label class="underline padding-right-0">Email:</label>
+                <!--How did I forget the 0!!-->
+                <input type="email" placeholder="bigb0i@email.com" />
+              </div>
             </div>
-          </div>
 
             <!--Spam email opt in/out-->
-            <div
-              class="child-background padding-10 margin child-border d-flex flex-col-responsive"
-            >
+            <div class="child-background padding-10 margin child-border">
               <p class="underline margin-bottom">
                 Do you want us to send you literal non stop spam emails that
                 have zero value but you always open anyway?
@@ -158,31 +154,34 @@
           <br />
         </section>
 
-      <!--Language's covered table-->
-      <!--Needs work-->
-      <section class="padding-10">
-        <div class="child-background padding margin child-border d-flex border-red justify-content-center">
-          <!--The shadow is strickly for sandboxing, in its current form it looks like hot garbage-->
-          <table class="thick-border box-sizing table-size margin border-red">
-            <tr>
-              <th class="underline">Language</th>
-              <th class="underline">Application</th>
-            </tr>
-            <tr>
-              <td>HTML</td>
-              <td>Front end content</td>
-            </tr>
-            <tr>
-              <td>CSS</td>
-              <td>Cosmetics and positioning</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>Front end functions and backend</td>
-            </tr>
-          </table>
-        </div>
-      </section>
+        <!--Language's covered table-->
+        <!--Needs work-->
+        <section class="padding-10">
+          <div
+            class="child-background padding margin child-border d-flex border-red justify-content-center"
+          >
+            <!--The shadow is strickly for sandboxing, in its current form it looks like hot garbage-->
+            <table class="thick-border box-sizing table-size margin border-red">
+              <tr>
+                <th class="underline">Language</th>
+                <th class="underline">Application</th>
+              </tr>
+              <tr>
+                <td>HTML</td>
+                <td>Front end content</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>Cosmetics and positioning</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>Front end functions and backend</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+      </div>
     </main>
     <!--Add site logo's with SVG, implement some event listeners - more interactive-->
     <footer class="nav">
