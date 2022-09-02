@@ -173,6 +173,12 @@
   }
 }
 
+@media screen and (min-width: 1275px) {
+  .sign-up-textbox {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* ---- Global *** ---- */
 
 .box-shadow {
