@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="margin background-color-main">
+
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/styles.css" />
     <link rel="stylesheet" href="./global/styles.css" />
     <title>Programming For Doers</title>
@@ -15,9 +13,7 @@
 
   <body class="font-color">
     <header>
-      <h1
-        class="thick-border box-shadow center-header padding-10 header-font header"
-      >
+      <h1 class="thick-border box-shadow center-header padding-10 header-font header">
         Programing 101 with Acryce
       </h1>
 
@@ -36,16 +32,10 @@
           <div class="bordered-area">
             <p>
               This page serves as an array of assignments in the
-              <a
-                class="discord-link"
-                href="https://discord.gg/HFhUcdhj"
-                target="_blank"
-              >
+              <a class="discord-link" href="https://discord.gg/HFhUcdhj" target="_blank">
                 Programming For Doers course
               </a>
-              <span class="bold"
-                >developed by <span class="italic">Acryce. </span></span
-              >
+              <span class="bold">developed by <span class="italic">Acryce. </span></span>
             </p>
             <p>
               In this course I will be learning the basics or "hand tools" of
@@ -59,11 +49,9 @@
           </div>
           <!--Header image-->
           <div class="d-flex center-header-img">
-            <img
-              class="header-img"
+            <img class="header-img"
               src="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-122741764.jpg"
-              alt="augmented reality touch screen"
-            />
+              alt="augmented reality touch screen" />
           </div>
         </div>
       </article>
@@ -84,104 +72,83 @@
                 <input type="text" placeholder="Last Name" />
               </div>
 
-            <!--User email-->
-            <div class="margin-bottom sign-up-textbox">
-              <label class="underline padding-right-0">Email:</label>
-              <!--How did I forget the 0!!-->
-              <input type="email" placeholder="bigb0i@email.com" />
+              <!--User email-->
+              <div class="margin-bottom sign-up-textbox">
+                <label class="underline padding-right-0">Email:</label>
+                <!--How did I forget the 0!!-->
+                <input type="email" placeholder="bigb0i@email.com" />
+              </div>
             </div>
-            
-          </div>
+            <!--Spam email opt in/out-->
+            <div class="child-background padding-10 margin child-border">
+              <p class="underline margin-bottom">
+                Do you want us to send you literal non stop spam emails that have
+                zero value but you always open anyway?
+              </p>
+              <div>
+                <input type="radio" id="yesId" name="emailInOut" value="yes" />
+                <label>Heck yeah!</label>
+              </div>
+              <div>
+                <input type="radio" id="noId" name="emailInOut" value="no" />
+                <label>No, just sell my information instead</label>
+              </div>
+            </div>
 
-          <!--Spam email opt in/out-->
-          <div
-            class="child-background padding-10 margin child-border"
-          >
-            <p class="underline margin-bottom">
-              Do you want us to send you literal non stop spam emails that have
-              zero value but you always open anyway?
-            </p>
-            <div>
-              <input type="radio" id="yesId" name="emailInOut" value="yes" />
-              <label>Heck yeah!</label>
-            </div>
-            <div>
-              <input type="radio" id="noId" name="emailInOut" value="no" />
-              <label>No, just sell my information instead</label>
-            </div>
-          </div>
-
-          <!--user Intrest's choice-->
-          <div
-            class="child-background padding-10 margin child-border flex-col-responsive"
-          >
-            <div class="margin-bottom d-flex">
-              <p class="underline">Select what apply's to you:</p>
-            </div>
-            <div class="margin-bottom">
-              <input
-                type="checkbox"
-                id="learn"
-                name="userChoice"
-                value="learnProgramming"
-              />
-              <label for="learn">I want to learn programming</label>
-            </div>
-            <div class="margin-bottom">
-              <input
-                type="checkbox"
-                id="lonely"
-                name="userChoice"
-                value="iLonely"
-              />
-              <label for="lonely">I'm lonely</label>
-            </div>
-            <div class="margin-bottom">
-              <input
-                type="checkbox"
-                id="clueless"
-                name="userChoice"
-                value="dontKnow"
-              />
-              <label for="clueless">I dont even know what I'm clicking</label>
+            <!--user Intrest's choice-->
+            <div class="child-background padding-10 margin child-border flex-col-responsive">
+              <div class="margin-bottom d-flex">
+                <p class="underline">Select what apply's to you:</p>
+              </div>
+              <div class="margin-bottom">
+                <input type="checkbox" id="learn" name="userChoice" value="learnProgramming" />
+                <label for="learn">I want to learn programming</label>
+              </div>
+              <div class="margin-bottom">
+                <input type="checkbox" id="lonely" name="userChoice" value="iLonely" />
+                <label for="lonely">I'm lonely</label>
+              </div>
+              <div class="margin-bottom">
+                <input type="checkbox" id="clueless" name="userChoice" value="dontKnow" />
+                <label for="clueless">I dont even know what I'm clicking</label>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="padding margin">
-          <!--The shadow is strickly for sandboxing, in its current form it looks like hot garbage-->
-          <!--User sumbit info button-->
-          <button class="sign-up-button box-shadow" type="submit">
-            Take my info!
-          </button>
-        </div>
-        <br />
-      </section>
+          <div class="padding margin">
+            <!--The shadow is strickly for sandboxing, in its current form it looks like hot garbage-->
+            <!--User sumbit info button-->
+            <button class="sign-up-button box-shadow" type="submit">
+              Take my info!
+            </button>
+          </div>
+          <br />
+        </section>
 
-      <!--Language's covered table-->
-      <!--Needs work-->
-      <section class="padding-10">
-        <div class="child-background padding margin child-border d-flex border-red justify-content-center">
-          <!--The shadow is strickly for sandboxing, in its current form it looks like hot garbage-->
-          <table class="thick-border box-sizing table-size margin border-red table-hover">
-            <tr>
-              <th class="underline">Language</th>
-              <th class="underline">Application</th>
-            </tr>
-            <tr>
-              <td>HTML</td>
-              <td>Front end content</td>
-            </tr>
-            <tr>
-              <td>CSS</td>
-              <td>Cosmetics and positioning</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>Front end functions and backend</td>
-            </tr>
-          </table>
-        </div>
-      </section>
+        <!--Language's covered table-->
+        <!--Needs work-->
+        <section class="padding-10">
+          <div class="child-background padding margin child-border d-flex border-red justify-content-center">
+            <!--The shadow is strickly for sandboxing, in its current form it looks like hot garbage-->
+            <table class="thick-border box-sizing table-size margin border-red table-hover">
+              <tr>
+                <th class="underline">Language</th>
+                <th class="underline">Application</th>
+              </tr>
+              <tr>
+                <td>HTML</td>
+                <td>Front end content</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>Cosmetics and positioning</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>Front end functions and backend</td>
+              </tr>
+            </table>
+          </div>
+        </section>
     </main>
     <!--Add site logo's with SVG, implement some event listeners - more interactive-->
     <footer class="nav">
@@ -195,4 +162,5 @@
       <a>Contact Me</a>
     </footer>
   </body>
+
 </html>
