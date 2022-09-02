@@ -166,17 +166,23 @@
   }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 425px) {
   .sign-up-textbox {
     display: flex;
     flex-direction: column;
   }
 }
 
-@media screen and (min-width: 1275px) {
+@media screen and (min-width: 1050px) {
   .sign-up-textbox {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .section-space-evenly {
+    justify-content: space-evenly;
   }
 }
 /* ---- Global *** ---- */
@@ -184,3 +190,4 @@
 .box-shadow {
   box-shadow: 10px 10px 5px rgb(63, 86, 94);
 }
+
