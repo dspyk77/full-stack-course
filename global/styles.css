@@ -19,6 +19,10 @@
   justify-content: center;
 }
 
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}
+
 /* ------ Global font classes ------- */
 /* font color white */
 .font-color {
@@ -155,12 +159,35 @@
     margin: 10px;
     box-sizing: border-box;
   }
+<<<<<<< HEAD
   .header-img{
+=======
+  .header-img {
+>>>>>>> master
+  .header-img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
 }
+
+@media screen and (max-width: 410px) {
+.sign-up-textbox {
+  display: flex;
+  flex-direction: column;
+}
+}
+<<<<<<< HEAD
+=======
+}
+
+@media screen and (max-width: 410px) {
+  .sign-up-textbox {
+    display: flex;
+    flex-direction: column;
+  }
+>>>>>>> master
+
 
 /* ---- Global *** ---- */
 

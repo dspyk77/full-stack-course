@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Open index.html",
+        "file": "C:/Coding Prodjects/Acryce programming lessions/lesson-one/index.html",
+        "webRoot": "${workspaceFolder}"
+    }
+  ]
+}

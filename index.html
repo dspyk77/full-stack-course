@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="margin background-color-main">
   <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,89 +14,88 @@
   </head>
 
   <body class="font-color">
-    <!--No.1 Create an h1 header-->
-    <h1
-      class="thick-border box-shadow center-header padding-10 header-font header"
-    >
-      Programing 101 with Acryce
-    </h1>
+    <header>
+      <h1
+        class="thick-border box-shadow center-header padding-10 header-font header"
+      >
+        Programing 101 with Acryce
+      </h1>
 
-    <nav class="nav">
-      <a href="./index.html">Home</a>
-      <a href="./about/index.html">About</a>
-      <a href="./contact/index.html">Contact</a>
-      <a href="./projects/index.html">Projects</a>
-      <a target="_blank" href="https://www.reddit.com/user/Acryce">Acryce</a>
-    </nav>
-
-    <article class="d-flex">
-      <!--Page summary-->
-      <div class="summary section-background-color d-flex">
-        <div class="bordered-area">
-          <p>
-            This page serves as an array of assignments in the
-            <a
-              class="discord-link"
-              href="https://discord.gg/HFhUcdhj"
-              target="_blank"
-            >
-              Programming For Doers course
-            </a>
-            <span class="bold"
-              >developed by <span class="italic">Acryce. </span></span
-            >
-          </p>
-          <p>
-            In this course I will be learning the basics or "hand tools" of full
-            stack programming. By the end of this course my goal is to have the
-            <span class="underline bold">basic</span> knowledge and skill set to
-            be able to create a functional project start to finish. Then start
-            to sharpen these skills to further my portfolio and start a carrer
-            in web development.
-          </p>
+      <nav class="nav">
+        <a href="./index.html">Home</a>
+        <a href="./about/index.html">About</a>
+        <a href="./contact/index.html">Contact</a>
+        <a href="./projects/index.html">Projects</a>
+        <a target="_blank" href="https://www.reddit.com/user/Acryce">Acryce</a>
+      </nav>
+    </header>
+    <main>
+      <article class="d-flex">
+        <!--Page summary-->
+        <div class="summary section-background-color d-flex">
+          <div class="bordered-area">
+            <p>
+              This page serves as an array of assignments in the
+              <a
+                class="discord-link"
+                href="https://discord.gg/HFhUcdhj"
+                target="_blank"
+              >
+                Programming For Doers course
+              </a>
+              <span class="bold"
+                >developed by <span class="italic">Acryce. </span></span
+              >
+            </p>
+            <p>
+              In this course I will be learning the basics or "hand tools" of
+              full stack programming. By the end of this course my goal is to
+              have the
+              <span class="underline bold">basic</span> knowledge and skill set
+              to be able to create a functional project start to finish. Then
+              start to sharpen these skills to further my portfolio and start a
+              carrer in web development.
+            </p>
+          </div>
+          <!--Header image-->
+          <div class="d-flex center-header-img">
+            <img
+              class="header-img"
+              src="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-122741764.jpg"
+              alt="augmented reality touch screen"
+            />
+          </div>
         </div>
-        <!--Header image-->
-        <div class="d-flex center-header-img">
-          <img
-            class="header-img"
-            src="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-122741764.jpg"
-            alt="augmented reality touch screen"
-          />
-        </div>
-      </div>
-    </article>
-
-    <hr />
-
-    <!--Sign up section-->
-    <div class="section-background-color">
-      <section class="padding-10">
-        <!-- span it make the child elements inline block -->
-        <div class="d-flex">
-          <div
-            class="child-background padding-10 margin child-border d-flex flex-col-responsive"
-          >
-            <!--User name input-->
-            <div class="margin-bottom">
-              <label class="underline">First name:</label>
-              <input type="text" placeholder="First Name" />
-            </div>
-            <div class="margin-bottom">
-              <label class="underline">Last name:</label>
-              <input type="text" placeholder="Last Name" />
-            </div>
+      </article>
+      <hr />
+      <!--Sign up section-->
+      <div class="section-background-color">
+        <section class="padding-10">
+          <!-- span it make the child elements inline block -->
+          <div class="d-flex">
+            <div class="child-background padding-10 margin child-border">
+              <!--User name input-->
+              <div class="margin-bottom sign-up-textbox">
+                <label class="underline">First name:</label>
+                <input type="text" placeholder="First Name" />
+              </div>
+              <div class="margin-bottom sign-up-textbox">
+                <label class="underline">Last name:</label>
+                <input type="text" placeholder="Last Name" />
+              </div>
 
             <!--User email-->
-            <div>
+            <div class="margin-bottom sign-up-textbox">
               <label class="underline padding-right-0">Email:</label>
               <!--How did I forget the 0!!-->
               <input type="email" placeholder="bigb0i@email.com" />
             </div>
+            
           </div>
 
           <!--Spam email opt in/out-->
           <div
-            class="child-background padding-10 margin child-border d-flex flex-col-responsive"
+            class="child-background padding-10 margin child-border"
           >
             <p class="underline margin-bottom">
               Do you want us to send you literal non stop spam emails that have
@@ -113,7 +112,9 @@
           </div>
 
           <!--user Intrest's choice-->
-          <div class="child-background padding-10 margin child-border flex-col-responsive">
+          <div
+            class="child-background padding-10 margin child-border flex-col-responsive"
+          >
             <div class="margin-bottom d-flex">
               <p class="underline">Select what apply's to you:</p>
             </div>
@@ -161,7 +162,7 @@
       <section class="padding-10">
         <div class="child-background padding margin child-border d-flex border-red justify-content-center">
           <!--The shadow is strickly for sandboxing, in its current form it looks like hot garbage-->
-          <table class="thick-border box-sizing table-size margin border-red">
+          <table class="thick-border box-sizing table-size margin border-red table-hover">
             <tr>
               <th class="underline">Language</th>
               <th class="underline">Application</th>
@@ -181,7 +182,7 @@
           </table>
         </div>
       </section>
-    </div>
+    </main>
     <!--Add site logo's with SVG, implement some event listeners - more interactive-->
     <footer class="nav">
       <a href="https://www.linkedin.com/in/daniel-spykstra-0b3045218/">
