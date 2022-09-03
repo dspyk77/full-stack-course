@@ -32,6 +32,7 @@
 .header-font {
   font-family: "Orbitron", sans-serif;
 }
+
 .underline {
   text-decoration: underline;
 }
@@ -61,16 +62,21 @@
   text-decoration: none;
 }
 /* Links - change color on hover */
-.nav a:hover {
+.nav a:hover,
+.link:hover {
   background-color: #ddd;
   color: black;
 }
 
+.link {
+  color: lightskyblue;
+}
 /* ------- Global background colors------- */
 /*background color for each section*/
 .background-color-main {
   background-color: olivedrab;
 }
+
 .section-background-color {
   background-color: rgba(77, 73, 73, 0.803);
 }
@@ -102,6 +108,7 @@
   text-align: center;
   padding: 20px;
 }
+
 .center-header {
   display: flex;
   margin-left: auto;
@@ -133,12 +140,11 @@
 .padding-10 {
   padding: 10px;
 }
+
 .padding-bottom {
   padding-bottom: 20px;
 }
-.padding-bottom-10 {
-  padding-bottom: 10px;
-}
+
 .button-position {
   position: fixed;
   bottom: 0;
@@ -146,12 +152,13 @@
 }
 
 /* -----Global responsive media------  */
+/* view ports <= 700px do this */
 @media screen and (max-width: 700px) {
   .nav {
     flex-direction: column;
   }
 }
-
+/* view ports <= 940px do this */
 @media screen and (max-width: 940px) {
   .d-flex {
     flex-direction: column;
@@ -165,21 +172,21 @@
     width: 50%;
   }
 }
-
+/* view ports <= 425px do this */
 @media screen and (max-width: 425px) {
   .sign-up-textbox {
     display: flex;
     flex-direction: column;
   }
 }
-
+/* view ports >= 1050px do this */
 @media screen and (min-width: 1050px) {
   .sign-up-textbox {
     display: flex;
     flex-direction: column;
   }
 }
-
+/* view ports >= 1350px do this */
 @media screen and (min-width: 1350px) {
   .section-space-evenly {
     justify-content: space-evenly;
@@ -190,4 +197,3 @@
 .box-shadow {
   box-shadow: 10px 10px 5px rgb(63, 86, 94);
 }
-
