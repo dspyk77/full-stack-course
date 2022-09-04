@@ -61,16 +61,6 @@ button:hover {
   max-width: 800px;
   height: 150px;
 }
-/* -----FLEX----- */
-.flex-container {
-  display: flex;
-}
-.flex-row {
-  flex-direction: row;
-}
-.justify-content-center {
-  justify-content: center;
-}
 
 /* examples */
 /* .flex-col-responsive {
