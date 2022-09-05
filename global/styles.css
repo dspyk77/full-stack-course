@@ -157,6 +157,9 @@
   .nav {
     flex-direction: column;
   }
+  .nav a {
+    border: solid 1px black;
+  }
 }
 /* view ports <= 940px do this */
 @media screen and (max-width: 940px) {
@@ -170,6 +173,10 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+  .sign-up-textbox {
+    display: flex;
+    justify-content:center;
   }
 }
 /* view ports <= 425px do this */
