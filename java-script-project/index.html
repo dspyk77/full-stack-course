@@ -28,11 +28,26 @@
     </header>
     <main>
       <section class="section-background-color padding-10 thick-border">
+        <p>
+          You found my JavaScript sand box! This is where I come to test out JavaScript related code. 
+          You will see some simple functions and what not. Mainly just some innerHTML and math functions. But stay tunned,
+          big things are coming!
+        </p>
+      </section>
+      <section class="section-background-color padding-10 thick-border">
         <div class="child-background child-border padding-10 margin-bottom">
           <label for="postIt">Enter your name</label>
           <input type="text" id="postIt">
           <button onclick="textToPage()">Magic</button>
           <p id="change">What's your name?</p>
+        </div>
+      </section>
+      <section class="section-background-color padding-10 thick-border">
+        <div class="child-background child-border padding-10 margin-bottom">
+          <label for="isPosOrNeg">Enter a number to see if it is positive or negitive</label>
+          <input type="text" id="isPosOrNeg">
+          <button onclick="isPositive()">Check</button>
+          <p id="isResult"></p>
         </div>
       </section>
     </main>
@@ -46,6 +61,7 @@
       <!--Need to make an eventlistener for popup on click for "Contact Me"-->
       <a onclick="contactMe()">Contact Me</a>
     </footer>
+    <script src="../global/script.js"></script>
     <script src="../java-script-project/assets/script.js"></script>
   </body>
 
