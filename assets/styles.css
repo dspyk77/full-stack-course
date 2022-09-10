@@ -14,7 +14,7 @@ th,
 td {
   border: 1px solid;
 }
-
+/* use caution with this selector, if a tr has an ID it messes with specificity */
 .table-hover tr:not(:first-child):hover {
   background-color: #4b4b4b;
 }
