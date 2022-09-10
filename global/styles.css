@@ -48,7 +48,6 @@
 /* -------- Global nav classes-------- */
 .nav {
   display: flex;
-  overflow: hidden;
   background-color: #333;
 }
 /* Navbar links - float: left removed, replaced with display: inline-flex;
